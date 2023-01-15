@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "denoland.vscode-deno",
+    "sastan.twind-intellisense",
+    "SonarSource.sonarlint-vscode",
+    "sastan.twind-intellisense"
+  ]
+}
