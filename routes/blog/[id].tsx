@@ -18,10 +18,7 @@ export default function pagePost(props: PageProps) {
       <h1 class="text-6xl">{post.title}</h1>
       <time>{dateFormat}</time>
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
-      <div
-        class="markdown-body"
-        dangerouslySetInnerHTML={{ __html: post.body }}
-      />
+      <div dangerouslySetInnerHTML={{ __html: post.body }} />
     </article>
   );
 }
